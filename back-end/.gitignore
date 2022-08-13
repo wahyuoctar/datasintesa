@@ -1,4 +1,4 @@
 /node_modules
-/src/public/csv/**
-/src/public/data/**
+/src/public/csv/*
+/src/public/data/*
 .env

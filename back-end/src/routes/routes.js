@@ -37,7 +37,7 @@ router.get("/graph", async (req, res) => {
     const result = findData.map((val) => {
       return {
         resultTime: val.resultTime,
-        availability: (val.availDur / 900) * 100,
+        availability: parseInt((parseInt(val.availDur) / 900) * 100),
       };
     });
     return res.status(200).json(result);
@@ -77,6 +77,7 @@ router.post(
           const temp = value?.split(",")[1];
           return temp?.split("=")[1];
         };
+
         fs.createReadStream(`./src/public/csv/${filename}.csv`)
           .pipe(
             csv({

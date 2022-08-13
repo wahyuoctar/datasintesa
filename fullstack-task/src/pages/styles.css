@@ -1,0 +1,113 @@
+body {
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+      'Arial', sans-serif;
+    padding: 20px 20px 60px;
+    max-width: 680px;
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+  }
+  * :focus {
+    outline: 0;
+  }
+
+  .box {
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(204, 194, 194);
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    color: rgb(51, 188, 230)
+}
+
+.box-upload {
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(204, 194, 194);
+    background-color: rgb(51, 188, 230);
+    height: fit-content;
+    width: 20vw;
+    text-align: center;
+    padding: 10px
+}
+
+.button-upload {
+    color:  rgb(51, 188, 230);
+    background-color: white;
+    border: 2px solid white;
+    padding: 10px;
+    width: 100px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.button-upload:hover{
+    cursor: pointer;
+    background-color:rgb(51, 188, 230);
+    color: white;
+    border: 2px solid white;
+}
+
+.button-search {
+    color:  rgb(51, 188, 230);
+    background-color: white;
+    border: 2px solid rgb(51, 188, 230);
+    height: 26px;
+    border-radius: 10px;
+}
+
+.button-search:hover{
+    cursor: pointer;
+    color: rgb(124, 206, 231);
+}
+
+
+.filter-box {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    font-weight: 750;
+}
+
+input {
+    border: 0;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 20px;
+    width: 150px;
+    margin-right: 10px;
+    border: 2px solid rgb(51, 188, 230);
+}
+
+
+
+.input-title {
+    margin: 0;
+}
+
+.button-save {
+    width: auto;
+    border-radius: 20px;
+    height: "auto";
+    margin-left: 10px;
+    border: 2px solid white;
+    background-color: #33bce6;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.button-save:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #33bce6;
+    
+}
